@@ -25,6 +25,8 @@ class Hibernate52ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// 执行单元测试 测试源码构件是否成功
+		System.out.println("hibernate test....");
 	}
 
 }
