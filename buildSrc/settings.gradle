@@ -1,7 +1,9 @@
 pluginManagement {
 	repositories {
-		mavenCentral()
-		gradlePluginPortal()
+		//mavenCentral()
+		maven { url "https://maven.aliyun.com/repository/public" }
+		//gradlePluginPortal()
+		maven { url "https://maven.aliyun.com/repository/gradle-plugin" }
 	}
 	resolutionStrategy {
 		eachPlugin {
